@@ -13,7 +13,7 @@ class Songs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_songs)
-        parentRelativeLayout = findViewById(R.id.inputSong)
+        parentRelativeLayout = findViewById(R.id.parentRelativeLayout)
         val songsArray = arrayOf("Living in a Ghost Town","You Should Be Sad" ,"Imported","In In In","Slide","Blueberry Faygo","Toosie Slide","My Truch","You're Too Precious","Tusa","Let Me Know","Dealer","Intentions","Charlie","Aries","RockStar","Good Bad Times")
         val adapter = ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,songsArray)
         val songListView = findViewById<ListView>(R.id.songlv)

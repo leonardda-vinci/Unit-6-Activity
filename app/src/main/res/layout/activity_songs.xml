@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/parentRelativeLayout"
     tools:context=".Songs">
 
     <ImageView
@@ -13,11 +14,12 @@
         android:scaleType="centerCrop"
         android:src="@drawable/bg_login"
         tools:ignore="ContentDescription" />
-<ListView
-    android:id="@+id/songlv"
-    android:layout_width="wrap_content"
-    android:layout_height="576dp"
-    />
+
+    <ListView
+        android:id="@+id/songlv"
+        android:layout_width="wrap_content"
+        android:layout_height="576dp"
+        />
 
 
 
@@ -47,8 +49,7 @@
         android:layout_marginRight="67dp"
         android:layout_marginBottom="47dp"
         android:text="Delete"
-        android:onClick="onDelete"
-        tools:ignore="HardcodedText,OnClick" />
+        android:onClick="onDelete" />
 
 
 </RelativeLayout>
