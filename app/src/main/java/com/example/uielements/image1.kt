@@ -30,7 +30,7 @@ class image1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_image1)
 
-        parentRelativeLayout = findViewById(R.id.inputSong)
+        parentRelativeLayout = findViewById(R.id.parentRelativeLayout)
 
         val songsArray = arrayOf(
             "Kabilang Buhay",

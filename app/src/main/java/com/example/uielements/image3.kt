@@ -26,7 +26,7 @@ class image3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_image3)
-        parentRelativeLayout = findViewById(R.id.inputSong)
+        parentRelativeLayout = findViewById(R.id.parentRelativeLayout)
         val songsArray = arrayOf(
                 "Kabilang Buhay",
                 "Holy",
