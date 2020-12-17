@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Songs">
+
+    <ImageView
+        android:id="@+id/showDialogButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_login"
+        tools:ignore="ContentDescription" />
+<ListView
+    android:id="@+id/songlv"
+    android:layout_width="wrap_content"
+    android:layout_height="576dp"
+    />
+
+
+
+    <EditText
+        android:id="@+id/inputSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Song"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <Button
+        android:id="@+id/showToastBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="47dp"
+        android:text="Delete"
+        android:onClick="onDelete"
+        tools:ignore="HardcodedText,OnClick" />
+
+
+</RelativeLayout>
